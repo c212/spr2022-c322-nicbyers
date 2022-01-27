@@ -1,0 +1,43 @@
+(tail - head - count )%elements.length == 0 
+0 -->  elements.length
+tail 
+head
+count 
+
+
+add 
+tailOld -- tailnew - 1
+countold -- countnow - 1
+(tailOld - head - countOld )%elements.length == 0 
+
+(tailnew-1 - head - (countnew -1))%elements.length == 0 
+(tailnew-1 - head - countnew +1)%elements.length == 0 
+(tailnew - head - countnew )%elements.length == 0 
+
+remove
+head 1 2 3 4 5 6 7 8 tail
+m1   m2m3m4m5m6m7m8m9 m10 
+1) tail - head =1
+count = 2
+headNew == (headOld + 1) % elements.length
+(tail - headold - countold )%elements.length == 0 
+headold == elements.length - 1
+headnew = elements.length - 1 + 1
+countold -- countnow - 1
+(tail - elements.length - 1- (countnew - 1) )%elements.length == 0 
+(tail - elements.length - 1 +countnew +1)%elements.length == 0 
+headNew == (elements.length - 1 + 1) % elements.length
+
+
+(tail - headNew   +countnew )%elements.length == 0 
+
+
+(a+elements.length) %elements.length = a%elements.length
+(51+10)%10 == 51%10
+
+2) tail -head > 1
+(tail - headold - countold )%elements.length == 0 
+countold = countnew -1
+headold = headnew -1
+(tail - headnew -1- (countnew -1) )%elements.length == 0 
+(tail - headnew - countnew)%elements.length == 0 
